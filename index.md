@@ -64,6 +64,16 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 
 
+   | Tables        | Are           | Cool  |
+   | ------------- |:-------------:| -----:|
+   | col 3 is      | right-aligned | $1600 |
+   | col 2 is      | centered      |   $12 |
+   | zebra stripes | are neat      |    $1 |
+
+   
+
+
+
 
 ### metadata
 {% for repository in site.github.public_repositories %}
