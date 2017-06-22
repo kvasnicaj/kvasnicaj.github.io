@@ -3,7 +3,7 @@ layout: default
 title: Webarchiv
 ---
 
-# Tohle bude peklo!
+# Tohle NEbude peklo!
 
 You can use the [editor on GitHub](https://github.com/kvasnicaj/kvasnicaj.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
