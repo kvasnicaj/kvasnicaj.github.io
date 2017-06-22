@@ -12,10 +12,14 @@ title: fairytalle
 	* druhá podpoložka
 1. první položka
 2. položka
+
+
 ```
 * hvězdička
 # hastag
 $ dolar
 ```
+
+
 odkazy [Webarchiv](http://webarchiv.cz/cs)
 obrázky
