@@ -8,15 +8,15 @@ title: Webarchiv
 ##Nadpis
 
 
-*poloka A
-	*poloka 2
-	*poloka š
-*poloka B
+*poloÅ¾ka A
+	*poloÅ¾ka 2
+	*poloÅ¾ka Å¡
+*poloÅ¾ka B
 
-**tuènı text**
+**tuÄnÃ½ text**
 
 _kurziva_
-_ poloka _
+_ poloÅ¾ka _
 
 $dolar
 
