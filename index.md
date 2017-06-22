@@ -32,6 +32,8 @@ _kurzíva_
 
 [Link](url) and ![Image](src)
 ```
+http://github.com - automatic!
+[Nějakej popis](http://github.com)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
@@ -44,6 +46,30 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 
+# 1. kapitola
+
+*kurzíva*
+**tučnej text**
+__podtržený text__
+Nějakej text který patří ke kapitole
+
+dfdgsdkg ksgp sjgisskf jsafognsdflgn sf
+
+sajdg klsfnglsjgnsk gslf ngslkdng ls
+
+*kurzíva*
+
+* první položka
+* druhá položka
+  * druhá a půltá
+
+1. první položka
+1. druhá položka
+  1. druhá a půl tá
+
+
+
+  
 ### metadata
 {% for repository in site.github.public_repositories %}
   * [{{ repository.name }}]({{ repository.html_url }})
