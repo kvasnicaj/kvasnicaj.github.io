@@ -1,4 +1,3 @@
-### Zrudko a továrna obrázky
+### Zrudko a továrna na obrázky
 
-![Darwinovy vycházkové hole]
-(images/darwin.jpg)
+![Darwinovy vycházkové hole](images/darwin.jpg)
