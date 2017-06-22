@@ -33,7 +33,14 @@ _kurzíva_
 [Link](url) and ![Image](src)
 ```
 http://github.com - automatic!
-[Nějakej popis](http://github.com)
+
+
+
+[odkaz na wa](http://www.webarchiv.cz)
+
+![frenchie](http://img1.goodhouse.ru/upload/img_get/dd/dd9f9c264826d36836617513bf23f97d_fitted_700x.jpg)
+
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
