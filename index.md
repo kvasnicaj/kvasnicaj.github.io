@@ -28,8 +28,19 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
+_kurzíva_
+
 [Link](url) and ![Image](src)
 ```
+http://github.com - automatic!
+
+
+
+[odkaz na wa](http://www.webarchiv.cz)
+
+![frenchie](http://img1.goodhouse.ru/upload/img_get/dd/dd9f9c264826d36836617513bf23f97d_fitted_700x.jpg)
+
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
@@ -40,3 +51,21 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+# 1. kapitola
+
+* První řádek
+  * První a půl tý
+  * První a drůh tý
+* Druhý řádek
+
+   tady už není seznam
+
+
+
+
+### metadata
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
