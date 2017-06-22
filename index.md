@@ -48,26 +48,12 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 # 1. kapitola
 
-*kurzíva*
-**tučnej text**
-__podtržený text__
-Nějakej text který patří ke kapitole
+* První řádek
+  * První a půl tý
+  * První a drůh tý
+* Druhý řádek
 
-dfdgsdkg ksgp sjgisskf jsafognsdflgn sf
-
-sajdg klsfnglsjgnsk gslf ngslkdng ls
-
-*kurzíva*
-
-* první položka
-  * druhá položka   
-    * druhá a půltá
-
-asdfsdfg
-
-   1. první položka
-1. druhá položka
-  1. druhá a půl tá
+   tady už není seznam
 
 
 
