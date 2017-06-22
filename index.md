@@ -61,7 +61,8 @@ sajdg klsfnglsjgnsk gslf ngslkdng ls
 
 * první položka
 * druhá položka
-  * druhá a půltá
+   * druhá a půltá
+
 
 1. první položka
 1. druhá položka
@@ -69,7 +70,7 @@ sajdg klsfnglsjgnsk gslf ngslkdng ls
 
 
 
-  
+
 ### metadata
 {% for repository in site.github.public_repositories %}
   * [{{ repository.name }}]({{ repository.html_url }})
