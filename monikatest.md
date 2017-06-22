@@ -18,4 +18,4 @@ title: fairytalle
 $ dolar
 ```
 odkazy [Webarchiv](http://webarchiv.cz/cs)
-obrázky
+obrázky stejně jako odkaz ![popisek](http://www.dog-learn.com/dog-breeds/frenchie-pug/images/frenchie-pug-u3.jpg) proste musi byt online verejny... dalo by se to nahrat i na github...
