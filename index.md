@@ -60,8 +60,8 @@ sajdg klsfnglsjgnsk gslf ngslkdng ls
 *kurzíva*
 
 * první položka
-* druhá položka   
-   * druhá a půltá
+  * druhá položka   
+    * druhá a půltá
 
 asdfsdfg
 
