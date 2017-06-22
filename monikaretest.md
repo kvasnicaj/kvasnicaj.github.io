@@ -7,14 +7,11 @@ title: fairytalle
 
 **reboldovaná story**
 * první položka
-* druhá položka
-	* první podpoložka
-	* druhá podpoložka
+  * druhá podpoložka
+    * třetí podpodpoložka
 1. první položka
-2. položka
-
-   položka
-   * druhá položka
+1. druhá položka
+  1. první podpoložka
    
    
 ```
