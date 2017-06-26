@@ -15,32 +15,16 @@
 
 		<div class="container">
 
-				<h1><a href="/cs">Webarchiv<span class="false-link-underline-blue"></span></a> sdílený dokument</h1><br>
-				<p>Metodologie nějaká, na které zde pracujeme. </p>
+				<h1><a href="/cs">Webarchiv<span class="false-link-underline-blue"></span></a> Katalogizační manuál</h1><br>
+				<p>Zápis vybraných údajů při popisu elektronických online zdrojů ve formátu  MARC 21 / systémAleph </p>
 
-			<ul class="inline-list">
-					<li>
-						<a href="/cs/o-webarchivu" class="current">1. kapitola</a>&nbsp;<span class="slash">/</span>
-					</li>
-					<li>
-						<a href="/cs/terminologie">2. kapitola</a>&nbsp;<span class="slash">/</span>
-					</li>
-					<li>
-						<a href="/cs/celoplosne-sklizne">Celoplošné sklizně</a>&nbsp;<span class="slash">/</span>
-					</li>
-					<li>
-						<a href="/cs/tematicke-sbirky">Tématické sbírky</a>&nbsp;<span class="slash">/</span>
-					</li>
-					<li>
-						<a href="/cs/dokumenty">Dokumenty</a>&nbsp;<span class="slash">/</span>
-					</li>
-					<li>
-						<a href="/cs/graficke-materialy">Grafické materiály</a>&nbsp;<span class="slash">/</span>
-					</li>
-					<li>
-						<a href="/cs/kontakty">Kontakty</a>
-					</li>
-			</ul>
+		<ul class="inline-list">
+		<li><a href="index.md"  class="{% if page.url == index.md %}current{% endif %}">Úvod</a>&nbsp;<span class="slash">/</span></li>
+    	{% for nav in site.posts %}
+			<li><a href="{{ nav.url }}" class="{% if page.url == nav.url %}current{% endif %}">{{nav.navigation}}</a>&nbsp;<span class="slash">/</span></li>
+			{% endfor %}
+
+		</ul>
 
 			<hr>
 
@@ -55,39 +39,8 @@
 		</div>
 	</section>
 
-
-
-
 	<footer>
-		{% include _issues.md %}
-
-
-		<div class="container">
-
-			<hr>
-
-			<div class="row">
-
-				<div class="col-sm-6 info">
-					<ul>
-							<li><a href="/cs">Webarchiv</a> je pod licencí:<br><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" class="cc-link"><strong>CC</strong> BY/NC/ND</a></li>
-							<li><br>Koncept a grafickou podobu připravili<br><a href="http://www.kofila.com/" target="_blank">Bohdan Heblík</a> & <a href="http://zlodejpapiru.cz/" target="_blank">Luboš Svoboda</a><br>Do chodu vše uvedl <a href="http://www.tomaskorinek.com/" target="_blank">Tomáš Kořínek</a></li>
-					</ul>
-				</div>
-
-				<div class="col-sm-2 col-sm-offset-4 external-links">
-					<h2><a href="/cs">WWW</a></h2>
-					<ul>
-						<li><a href="/cs/kontakty">kontakt</a></li>
-						<li><a href="https://www.facebook.com/webarchivcz">facebook</a></li>
-						<li><a href="http://blog.webarchiv.cz/">blog</a></li>
-						<li><a href="/cs/graficke-materialy">logo</a></li>
-					</ul>
-				</div>
-
-			</div>
-
-		</div>
+		{% include footer.html %}
 	</footer>
 
 </body>

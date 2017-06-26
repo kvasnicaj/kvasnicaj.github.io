@@ -3,79 +3,44 @@ layout: default
 title: Webarchiv
 ---
 
-# Tohle NEbude peklo!
+# Úvod
 
-You can use the [editor on GitHub](https://github.com/kvasnicaj/kvasnicaj.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Základní normativy pro katalogizaci jsou pravidla **RDA** (Recource Description and Access, vznikla jako nástupce Anglo-amerických katalogizačních pravidel - AACR2R), interpunkce se řídí pravidly pro Mezinárodní standardní bibliografický popis (International Standard Bibliographic Description - ISBD, struktura zápisu pak mezinárodně uznávaným metadatovým standardem pro popis dokumentů v knihovních informačních systémech (MAchine-Readable Cataloging - MARC).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Dále doporučujeme sledovat stránky Národní knihovny ČR - [Katalogizační politika](https://www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu), kde jsou zveřejněny aktualizace a případné změny týkající se bibliografického zpracování elektronických zdrojů,
+[Národní autority ČR](http://autority.nkp.cz/) a [České MDT Online](http://cz.udc-hub.com/cs/login.php ).
 
-## lidi nemusí prožívat peklo...
+## Všeobecně
+Elektronické zdroje mají charakter pokračujícího zdroje, kdy je třeba při volbě pramenů popisu aplikovat i základní zdroje popisu pro seriály a integrační pravidla.
+
+Před započetím katalogizace je třeba ověřením názvu/vydavatele zkontrolovat, zda už dokument není v NKC popsán, příp. v jiné verzi. Vždy se vytváří nový záznam, i pokud je již v bázi uložen záznam pro jinou verzi (dokument na jiném fyzickém nosiči).
+
+Je třeba, aby katalogizátor při popisu dokumentu zvažoval, které poznámky má smysl uvádět - zejména, aby se významově stejná poznámka neopakovala v různých poznámkových polích.
+
+## Hlavní pramen popisu
+Hlavním pramenem popisu u elektronických zdrojů je  celé provedení (samotný zdroj). Převezměte informaci  z formálně uvedených údajů (např. z titulní obrazovky/obrazovek, hlavního menu, z údajů programu, z prvního zobrazení informací, z domovské stránky/stránek, ze záhlaví souboru obsahujícího „Předmět:“, z metadat, která jsou součástí daného dokumentu, a z fyzického nosiče nebo jeho etikety, zdrojového kódu atd.)
+
+**Preferovaný pramen popisu u e-zdroje: obraz (= elektronická verze) titulní stránky, titulního listu nebo karty (zejména pro e-knihy).**
+
+## Základní pravidla popisu
+* zapiš, co vidíš, včetně chyb (správný údaj jako varianta nebo poznámka), symboly a značky přepisujeme přesně (pokud možno)
+* nezkracuj slova, nevynechávej další autory, neměň … za []  
+* číslovky se zapisují přesně tak, jak jsou uvedeny ve zdroji, nevynechávají se, ani se , nepřepisují na arabské
+* psaní velkých písmen se řídí gramatickými pravidly daného jazyka, velkým písmenem začíná první slovo hlavního názvu, první slovo alternativního názvu
+* hranaté závorky se používají pouze tehdy, když je údaj doplněn z jiného zdroje
+* nezapisujeme tečku na konci polí, knihovnická interpunkce se zapisuje vždy, i když to má za následek zdvojení interpunkčních znaménekinterpunkcí „Př. Vrať se mi zpátky!. Sv. 1,“
+* vylučování znaků podle hodnoty indikátoru - k počtu vylučovaných znaků se připočítává i následná mezera “Př. Der Dienst  hodnota 2. indikátoru je 4”
+* úrovně popisu už neexistují (pouze povinné, povinné když a nepovinné)
+* zápis data Př. 1.1.2004; 1. dubna 1998; 23.-24.5.2001; 23.-28. září 2002”
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-_kurzíva_
-
-[Link](url) and ![Image](src)
 ```
-http://github.com - automatic!
+Pole 080, 100 (700), 110 (710), 111 (711), 6XX – vždy kontrolovat přes F3!!
+```
 
+U polí, která mají v MARC21 končit tečkou (např. 520), je třeba do záznamu doplňovat tečky ručně.
 
-
-[odkaz na wa](http://www.webarchiv.cz)
-
-![frenchie](http://img1.goodhouse.ru/upload/img_get/dd/dd9f9c264826d36836617513bf23f97d_fitted_700x.jpg)
-
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kvasnicaj/kvasnicaj.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-
-# 1. kapitola
-
-* První řádek
-  * První a půl tý
-  * První a drůh tý
-* Druhý řádek
-
-   tady už není seznam
-
-
-
-   | Tables        | Are           | Cool  |
-   | ------------- |:-------------:| -----:|
-   | col 3 is      | right-aligned | $1600 |
-   | col 2 is      | centered      |   $12 |
-   | zebra stripes | are neat      |    $1 |
-
-   
-
-
-
-
-### metadata
-{% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
-{% endfor %}
+Použité zkratky:
+	(O) – opakovatelné pole
+	(NO) – neopakovatelné pole
