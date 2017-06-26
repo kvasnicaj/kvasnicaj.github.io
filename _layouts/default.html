@@ -15,11 +15,11 @@
 
 		<div class="container">
 
-				<h1><a href="/cs">Webarchiv<span class="false-link-underline-blue"></span></a> Katalogizační manuál</h1><br>
+				<h1><a href="http://webarchiv.cz">Webarchiv<span class="false-link-underline-blue"></span></a> Katalogizační manuál</h1><br>
 				<p>Zápis vybraných údajů při popisu elektronických online zdrojů ve formátu  MARC 21 / systém Aleph </p>
 
 		<ul class="inline-list">
-		<li><a href="index.md"  class="{% if page.url == index.md %}current{% endif %}">Úvod</a>&nbsp;<span class="slash">/</span></li>
+		<li><a href="/index.md"  class="{% if page.url == index.md %}current{% endif %}">Úvod</a>&nbsp;<span class="slash">/</span></li>
     	{% for nav in site.posts %}
 			<li><a href="{{ nav.url }}" class="{% if page.url == nav.url %}current{% endif %}">{{ nav.title }}</a>&nbsp;<span class="slash">/</span></li>
 			{% endfor %}
