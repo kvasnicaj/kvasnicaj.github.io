@@ -40,6 +40,10 @@ ul {
 	margin: 0; */
 }
 
+ul .no-dots {
+	list-style: none;
+}
+
 a {
 	color: #0000ff;
 	text-decoration: underline;
