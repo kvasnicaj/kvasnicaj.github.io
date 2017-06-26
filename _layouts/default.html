@@ -19,7 +19,7 @@
 				<p>Zápis vybraných údajů při popisu elektronických online zdrojů ve formátu  MARC 21 / systém Aleph </p>
 
 		<ul class="inline-list">
-		<li><a href="{{ site.url }}/index.md"  class="{% if page.url == index.md %}current{% endif %}">Úvod</a>&nbsp;<span class="slash">/</span></li>
+		<li><a href="{{ site.url }}"  class="{% if page.url == index.md %}current{% endif %}">Úvod</a>&nbsp;<span class="slash">/</span></li>
     	{% for nav in site.posts %}
 			<li><a href="{{ nav.url }}" class="{% if page.url == nav.url %}current{% endif %}">{{ nav.title }}</a>&nbsp;<span class="slash">/</span></li>
 			{% endfor %}
