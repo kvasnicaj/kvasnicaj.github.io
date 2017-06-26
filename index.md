@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Webarchiv
+title: Katalogizační manuál
 ---
 
-# Úvod
+## Úvod
 
 Základní normativy pro katalogizaci jsou pravidla **RDA** (Recource Description and Access, vznikla jako nástupce Anglo-amerických katalogizačních pravidel - AACR2R), interpunkce se řídí pravidly pro Mezinárodní standardní bibliografický popis (International Standard Bibliographic Description - ISBD, struktura zápisu pak mezinárodně uznávaným metadatovým standardem pro popis dokumentů v knihovních informačních systémech (MAchine-Readable Cataloging - MARC).
 
