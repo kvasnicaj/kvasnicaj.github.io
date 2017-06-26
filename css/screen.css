@@ -40,7 +40,7 @@ ul {
 	margin: 0; */
 }
 
-ul .no-dots {
+ul.no-dots {
 	list-style: none;
 }
 
