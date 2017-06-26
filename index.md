@@ -33,7 +33,6 @@ Hlavním pramenem popisu u elektronických zdrojů je  celé provedení (samotn�
 * úrovně popisu už neexistují (pouze povinné, povinné když a nepovinné)
 * zápis data Př. 1.1.2004; 1. dubna 1998; 23.-24.5.2001; 23.-28. září 2002”
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```
 Pole 080, 100 (700), 110 (710), 111 (711), 6XX – vždy kontrolovat přes F3!!
