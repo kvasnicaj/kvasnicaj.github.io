@@ -1,8 +1,5 @@
 
 .DS_Store
-.DS_Store
-twitter/tokens.py
 venv/
 *.pyc
-twitter/config.py
 twitter/config.py
