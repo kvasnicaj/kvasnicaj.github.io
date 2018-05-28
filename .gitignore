@@ -4,3 +4,5 @@
 twitter/tokens.py
 venv/
 *.pyc
+twitter/config.py
+twitter/config.py
