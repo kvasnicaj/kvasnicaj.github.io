@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+    <h1>numbers</h1>
+    <table>
+            {% for x in output %}
+                <tr>
+                    <td>{{ x['number'] }}</td>
+                </tr>
+            {% endfor %}
+    </table>
+    {% if offset >= limit %}
+        <a href="/numbers?limit={{ limit }}&offset={{ offset - limit }}"> předchozí </a>
+    {% endif %}
+
+    {% if offset < (max - limit) and max > limit %}
+        <a href="/numbers?limit={{ limit }}&offset={{ offset + limit }}"> další </a>
+    {% endif %}
+</body>
+</html>
