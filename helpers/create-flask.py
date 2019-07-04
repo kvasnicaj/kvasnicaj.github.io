@@ -100,7 +100,7 @@ with open(project_directory + '/templates/layouts/main.html', 'w') as f:
 # 7. vytvoření app.py
 with open(project_directory + '/app.py', 'w') as f:
     f.write(f'from flask import Flask\n'
-            f'from config import Config\n\n'
+            f'from config.config import Config\n\n'
             f'app = Flask(__name__)\n\n'
             f'configuration = Config()\n'
             f'app.config.from_object(configuration)\n\n'
